@@ -1,9 +1,34 @@
-/* :root{--brand-color} */
+ :root{--font-color:#212121;}
+ :root{--background-color: #E5E5E5;}
+ :root{--selection-color:2196F3;}
+
 /* font-family: 'Raleway', sans-serif; */
+html{background-color: var(--background-color); color: var(--font-color);}
+body{font-family: 'Roboto', sans-serif;
+color: var(--font-color);
+}
 
-body{font-family: 'Roboto', sans-serif;}
+.logo{font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;}
+.logo-web{
+color:  #2196F3;}
 
-.tytul {background-color:#2F303A; color: #FFFFFF; font-family: roboto; font-weight: 900; width: 1600px; height: 600px; ; top: 80px; 
+.logo:hover{text-decoration-line:underline #2196F3;}
+.logo:focus {color: #2196F3;}
+.logo:visited {color: #2196F3;}
+
+.title {background-color:#2F303A; color: #FFFFFF; font-family: roboto; font-weight: 900; width: 1600px; height: 600px; ; top: 80px; 
     ;}
 
 h1{position: absolute;
@@ -12,9 +37,7 @@ h1{position: absolute;
     left: 452px;
     top: 280px;
     
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 900;
+     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     /* or 136% */
@@ -25,4 +48,36 @@ h1{position: absolute;
     
     color: #FFFFFF;}
 
-button{}
+button{
+    
+    
+    
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    /* text-align: absolute; */
+    width: 117px;
+    height: 30px;
+    left: 742px;
+    top: 440px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;}
+
+    
