@@ -1,83 +1,160 @@
  :root{--font-color:#212121;}
  :root{--background-color: #E5E5E5;}
- :root{--selection-color:2196F3;}
+ :root{--selection-color:#2196F3;}
 
-/* font-family: 'Raleway', sans-serif; */
-html{background-color: var(--background-color); color: var(--font-color);}
 body{font-family: 'Roboto', sans-serif;
 color: var(--font-color);
 }
+.logo-link{text-decoration: none;}
 
-.logo{font-family: 'Raleway', sans-serif;
-    position: absolute;
+.logo{
+    font-family: 'Raleway', sans-serif;
     width: 145px;
     height: 31px;
-    left: 215px;
-    top: 24px;
+    color: var(--font-color);
+    text-decoration: none;
     
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
     letter-spacing: 0.03em;}
 .logo-web{
-color:  #2196F3;}
+color: var(--selection-color);}
 
-.logo:hover{text-decoration-line:underline #2196F3;}
-.logo:focus {color: #2196F3;}
-.logo:visited {color: #2196F3;}
+.logo:hover{text-decoration-color:var(--selection-color);}
+.logo:focus {color:var(--selection-color);}
+.logo:visited {color:var(--selection-color)}
 
-.title {background-color:#2F303A; color: #FFFFFF; font-family: roboto; font-weight: 900; width: 1600px; height: 600px; ; top: 80px; 
+.header-navigation{
+font-weight:500;
+font-size:14px;
+line-height:16px;
+letter-spacing:0.02em;
+color: var(--font-color)
+}
+
+.header-navigation:hover{color: var(--selection-color);}
+.header-navigation:focus{color:var(--selection-color);}
+
+.top-mail-tel{color: #757575;}
+.top-mail-tel:hover{color: var(--selection-color);}
+.top-mail-tel:focus{color: var(--selection-color);}
+
+.email-tel{font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;}
+
+.title {
+    background-color:#2F303A;
+    color: #FFFFFF;
+    font-family: roboto;
+    font-weight: 900;
+    width: 1600px;
+    height: 600px;
     ;}
 
-h1{position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    
-     font-weight: 900;
+h1{
+    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    /* or 136% */
     
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: #FFFFFF;}
 
-button{
-    
-    
-    
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    /* text-align: absolute; */
-    width: 117px;
-    height: 30px;
-    left: 742px;
-    top: 440px;
+button.zamow{
+    font-family: inherit;
+    background: var(--selection-color);
+    /* width: 200px;
+    height: 50px; */
     
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    
     color: #FFFFFF;}
 
-    
+    h3{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    }
+.opis{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+}
+.nasz-zespol{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-transform: none;
+}
+.position{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+footer{background-color:#2F303A;
+    width: 1600px;
+    height: 252px;}
+
+.logo.studio{
+    color:#FFFFFF;}
+
+address{
+font-style: normal;
+text-decoration-line: none;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+a.bottom-mail-tel{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+.bottom-mail-tel:focus{
+    color: var(--selection-color);
+}
+.bottom-mail-tel:hover{
+    color: var(--selection-color);
+}
+
+/* Portfolio */
+.przycisk:hover{background-color:var(--selection-color); color:#FFFFFF;}
+.przycisk:focus{color: var(--selection-color);}
+
+.portfolio-title{
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-transform: none;
+}
+.portfolio-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
